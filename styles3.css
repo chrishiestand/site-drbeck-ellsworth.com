@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#container {width:1039px; position:relative; background:url('images/contbg2.png');background-repeat: no-repeat; text-align:left; }
+
+#header { height:86px;}
+
+#nav { position:relative; height:71px; top:25px; width:800px; left:50px; text-align:left;}
+
+.nav, .nav ul { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 100;
+  position: relative;
+}
+.nav li {
+  
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.nav li a, .nav li a:link, .nav li a:active, .nav li a:visited {
+  font-family: "Hoefler Text", "Helvetica Neue Light", "HelveticaNeue-Light", Arial, Helvetica, sans-serif;
+	font-size:20px;
+  background:;
+  height:30px;
+  color: #fff;
+  display: block;
+  padding: 0 15px;
+  text-decoration: none;
+  
+}
+
+.nav li a:hover {
+  background: ;
+  color: #039daa;	
+  border-bottom: 5px solid #00d5e7;
+
+}
+#nav-one li:hover a, 
+#nav-one li.sfHover a {
+  background: ;
+  color: #00d5e7;
+}
+#nav-one li:hover ul a, 
+#nav-one li.sfHover ul a {
+  background: #7c4b2b;
+  color: #fff;	
+  border-top: 1px dotted #000;
+  border-bottom:0px;	
+  font-size:18px;
+  padding-top:10px;
+}
+#nav-one li:hover ul a:hover, 
+#nav-one li.sfHover ul a:hover {
+  background: #dec9aa;
+  color: #000;
+  border-top: 1px dotted #000;
+  border-bottom:0px;	
+}
+
+.nav ul {
+  background: ;
+  
+  list-style: none;
+  margin: 0;
+  padding-top:26px;
+  width: 100px;
+  position: absolute;
+  top: -999em;
+  left: -1px;
+ 
+}
+.nav li:hover ul,
+.nav li.sfHover ul {
+  top: 20px;
+}
+.nav ul li {
+  border: 0;
+  float: none;
+}
+.nav ul a {
+ 
+  
+  padding-right: 20px;
+  width: 180px;
+  white-space: nowrap;
+}
+.nav ul a:hover {
+  background: #ccc;
+  color: #000;
+}
+
+
+
+
+
+#content {width:939px; min-height:400px; background:url('images/ctbg3.png'); background-repeat: repeat-y; padding: 50px 50px 0px 50px; }
+
+#footer {background-color:#87593f; position:relative; top:0px; padding-left:25px; padding-right:25px;  padding-top:10px; padding-bottom:10px;}
+
+
+#footer p {color:#fff; font-size:11px;}
+
+
+
+p, ul, ol {font-family: "Hoefler Text",  "Helvetica Neue Light", "HelveticaNeue-Light", Arial, Helvetica, sans-serif; font-size:16px;}
+
+p {line-height:1.6;}
+/* CSS Document */
+
+a:link              { color: #00d5e7; text-decoration:underline; }
+    a:visited           { color:#00d5e7; text-decoration:underline; }
+    a:hover             { color:#9ecf17; text-decoration:normal; }
+    a:active            { color:#00d5e7; text-decoration:underline; }
+	
+	#footer a:link              { color: #fff; text-decoration:underline; }
+    #footer a:visited           { color:#fff; text-decoration:underline; }
+    #footer a:hover             { color:#fff; text-decoration:none; }
+    #footer a:active            { color:#fff; text-decoration:underline; }
+
+
+h1 {font-family: "Hoefler Text",  "Helvetica Neue Light", "HelveticaNeue-Light", Arial, Helvetica, sans-serif; font-size:34px; line-height:1.1;   color:#02bbcb;}
+
+h2 {font-family: "Hoefler Text",  "Helvetica Neue Light", "HelveticaNeue-Light", Arial, Helvetica, sans-serif; font-size:24px; line-height:1.1;   color:#02bbcb;}
+
+h3 {font-family: "Hoefler Text",  "Helvetica Neue Light", "HelveticaNeue-Light", Arial, Helvetica, sans-serif; font-size:24px; line-height:1.1;   color:#333333;}
+
+
+
+       textarea#styled {
+        padding:5px; font-size:16px; font-family:Arial, Helvetica, sans-serif; letter-spacing:.05em;
+}
+
+
+
+
