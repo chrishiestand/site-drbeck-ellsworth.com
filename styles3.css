@@ -8,11 +8,11 @@
 
 #nav { position:relative; height:71px; top:25px; width:800px; left:50px; text-align:left;}
 
-.nav, .nav ul { 
+.nav, .nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	
+
 }
 
 .nav {
@@ -21,7 +21,7 @@
   position: relative;
 }
 .nav li {
-  
+
   float: left;
   margin: 0;
   padding: 0;
@@ -36,40 +36,40 @@
   display: block;
   padding: 0 15px;
   text-decoration: none;
-  
+
 }
 
 .nav li a:hover {
   background: ;
-  color: #039daa;	
+  color: #039daa;
   border-bottom: 5px solid #00d5e7;
 
 }
-#nav-one li:hover a, 
+#nav-one li:hover a,
 #nav-one li.sfHover a {
   background: ;
   color: #00d5e7;
 }
-#nav-one li:hover ul a, 
+#nav-one li:hover ul a,
 #nav-one li.sfHover ul a {
   background: #7c4b2b;
-  color: #fff;	
+  color: #fff;
   border-top: 1px dotted #000;
-  border-bottom:0px;	
+  border-bottom:0px;
   font-size:18px;
   padding-top:10px;
 }
-#nav-one li:hover ul a:hover, 
+#nav-one li:hover ul a:hover,
 #nav-one li.sfHover ul a:hover {
   background: #dec9aa;
   color: #000;
   border-top: 1px dotted #000;
-  border-bottom:0px;	
+  border-bottom:0px;
 }
 
 .nav ul {
   background: ;
-  
+
   list-style: none;
   margin: 0;
   padding-top:26px;
@@ -77,7 +77,7 @@
   position: absolute;
   top: -999em;
   left: -1px;
- 
+
 }
 .nav li:hover ul,
 .nav li.sfHover ul {
@@ -88,8 +88,8 @@
   float: none;
 }
 .nav ul a {
- 
-  
+
+
   padding-right: 20px;
   width: 180px;
   white-space: nowrap;
@@ -121,7 +121,7 @@ a:link              { color: #00d5e7; text-decoration:underline; }
     a:visited           { color:#00d5e7; text-decoration:underline; }
     a:hover             { color:#9ecf17; text-decoration:normal; }
     a:active            { color:#00d5e7; text-decoration:underline; }
-	
+
 	#footer a:link              { color: #fff; text-decoration:underline; }
     #footer a:visited           { color:#fff; text-decoration:underline; }
     #footer a:hover             { color:#fff; text-decoration:none; }
@@ -135,11 +135,29 @@ h2 {font-family: "Hoefler Text",  "Helvetica Neue Light", "HelveticaNeue-Light",
 h3 {font-family: "Hoefler Text",  "Helvetica Neue Light", "HelveticaNeue-Light", Arial, Helvetica, sans-serif; font-size:24px; line-height:1.1;   color:#333333;}
 
 
-
-       textarea#styled {
-        padding:5px; font-size:16px; font-family:Arial, Helvetica, sans-serif; letter-spacing:.05em;
+.social-icon {
+	float: right;
+	position: relative;
+	z-index: 10;
+	width: 50px;
+	height: 30px;
+	padding-left: 10px;
+	padding-top: 50px;
+	text-align: left;
 }
 
+textarea#styled {
+	padding:5px; font-size:16px; font-family:Arial, Helvetica, sans-serif; letter-spacing:.05em;
+}
 
+img.grayhover {
+	filter: none;
+}
 
+img.grayhover:hover {
+	filter: grayscale(100%);
+}
 
+.shadow {
+	filter: drop-shadow(5px 5px 3px #333)
+}
